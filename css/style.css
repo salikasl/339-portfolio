@@ -32,6 +32,7 @@ nav>ul>li {
     padding: 8px;
     background-color: #49330a;
     border-radius: 6px;
+    text-decoration: underline;
 }
 
 a:link, a:visited, a:active {
