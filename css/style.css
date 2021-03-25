@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 16px;
+    padding: 20px;
 }
 
 nav>ul>li {
@@ -38,10 +38,11 @@ nav>ul>li {
 a:link, a:visited, a:active {
     text-decoration: none;
     color: white;
+    padding: 2px;
 }
 
 a:hover {
-    border: red dashed 1px;
+    border: #ffcb05 dashed 1px;
 }
 
 h1 {
@@ -62,6 +63,10 @@ h1 {
     margin: 0 auto;
     width: 80%;
     padding: 16px;
+}
+
+.about_text {
+    margin: 0px 50px;
 }
 
 footer {
