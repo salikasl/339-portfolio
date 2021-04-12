@@ -109,3 +109,16 @@ footer {
     color: white;
     background-color: #00274C;
 }
+
+@media screen and (min-width: 768px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav_links {
+        flex-direction: row;
+    }
+
+}
