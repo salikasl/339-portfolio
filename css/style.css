@@ -98,6 +98,21 @@ h1 {
     grid-row: 2 / span 2;
 }
 
+.skip a {
+    background: #00274C;
+    left: 10px;
+    padding: 7px;
+    -webkit-transition: top 0.5s ease-in;
+    transition: top 0.5s ease-in;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+  }
+
+.skip a:focus {
+    top: 10px;
+}
+
 footer {
     display: block;
     align-items: center;
@@ -108,6 +123,35 @@ footer {
     padding: 30px;
     color: white;
     background-color: #00274C;
+}
+
+#logo{
+    animation-name: logo_grow;
+    animation-duration: 15s;
+ }
+ 
+ /*Keyframes for animation*/
+ @-webkit-keyframes logo_grow{
+   0% {width: 25px; opacity: 0;}
+   100% {width: 420px; opacity: 1;}
+ }
+ 
+ @keyframes logo_grow{
+   0% {width: 25px; opacity: 0;}
+   100% {width: 420px; opacity: 1;}
+ } 
+
+@media screen and (min-width: 768px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav_links {
+        flex-direction: row;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
